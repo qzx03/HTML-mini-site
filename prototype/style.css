@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    background-color: rgb(19, 19, 204);
+    color: aliceblue;
+}
+header img {
+    max-width: 57px;
+    margin-left: 20px;
+}
+footer {
+    display: flex;
+    background-color: rgb(19, 19, 204);
+    color: aliceblue;
+}
+footer a {
+    color: white;            
+  text-decoration: none; 
+  background: royalblue;  
+  margin-left: 10px;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}

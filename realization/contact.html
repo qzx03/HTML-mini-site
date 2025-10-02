@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Mini Website</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>Contact Me!</h1>
+        <h3>Your Info:</h3>
+        <form action="/submit" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Homer Simpson" required> <br> <br>
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" placeholder="HomerJS7@gmail.com" required> <br> <br>
+        <label for="phone">Your Phone Number:</label>
+        <input type="tel" id="phone" placeholder="0612345678 (optional)"> <br> <br>
+        <label for="msg">Your Message:</label>
+        <textarea id="msg" name="msg" placeholder="Type your message here..." rows="8" cols="50"></textarea> <br> <br>  
+        <input type="submit">
+        </form>
+    </div>
+    <div class="footer">
+        &copy; 2025 Ahmed El Morabiti
+  <a href="https://github.com/qzx03" target="_blank">GitHub</a>
+  <a href="https://instagram.com" target="_blank">Instagram</a>
+</div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
